@@ -1,0 +1,14 @@
+.bw-effect {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: 0.3s linear;
+}
+
+.bw-effect:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.prod-name {
+    font-weight: bold;
+}
